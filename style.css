@@ -104,14 +104,14 @@ ul li:hover ul{
     
 }
 #login{
-    background-color: rgba(255, 0, 0, 0.616);
+    background-color: rgba(0, 0, 0, 0.616);
 }
 #login a{
     color:white;
     font-weight: bold;
 }
 #login:hover{
-    background-color: rgba(199, 4, 4, 0.616);
+    background-color: rgba(0, 0, 0, 0.842);
     transition: .5s;
 
 }
@@ -123,7 +123,7 @@ ul li:hover ul{
     color:black;
 }
 #cadastro:hover{
-    background-color:rgba(182, 120, 5, 0.774);
+    background-color:rgba(182, 120, 5, 0.925);
     transition: .5s;
 
 }
@@ -332,6 +332,7 @@ address{
 .nav lateral{
     grid-area: nav;
     
+    
    
 }
 .nav-lateral ul li{
@@ -342,6 +343,9 @@ address{
 }
 .nav-lateral ul li a{
     font-size: 1.4rem;
+    color: rgb(87, 1, 87);
+
+    
 
 }
 
@@ -351,6 +355,9 @@ address{
 }
 .escolhido {
     background-color: rgba(0, 0, 0, 0.795);
+    padding:auto;
+  
+    
    
 }
 
