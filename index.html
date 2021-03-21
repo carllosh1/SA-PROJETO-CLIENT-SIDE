@@ -4,34 +4,51 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>IANES TECH | CONCESSIONÁRIA</title>
-
+    <title>Ianes Tech</title>
+    <link rel="stylesheet" href="style.css">
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
-    
-    <link rel="stylesheet" href="style.css">
+    <link rel="icon" type="image/png" sizes="32x32" href="icon/ms-icon-70x70.png">
 </head>
 <body>
-    <header >
-        <div class="topo">
-            <div class="logo">
-                <a href="index.html"><label>IANES TECH</label></a>
-            </div>
-            <nav>
-                <ul class="nav">
-                    <li><a id="escolhido"href="">HOME</a></li>
-                    <li><a href="pages/about.html">SOBRE NÓS</a></li>
-                    <li><a href="">ESTOQUE</a></li>
-                    <li><a href="#rodape">CONTATO</a></li>
-                </ul>
-            </nav>
-
-        </div>
+    <nav>
        
-    </header>
-    <main>
-        <div class="walpaper"> </div>
+    
+            
+        <label  class="logo"><a href="index.html">IANES TECH</a></label>
+
+        
+        <ul class ="menu">
+            <li><a class="active"href="index.html">Home</a></li>
+            <li><a href="pages/about.html">Sobre Nós</a></li>
+            <li><a href="#">Estoque</a>
+                <ul>
+                    <li><a href="#piece">Produtos</a></li>
+                    <li><a href="pages/carros.html">Carros</a></li>
+                    
+                </ul>
+            </li>
+
+        <li><a href="#">Suporte</a>
+            <ul>
+                <li><a href="pages/faq.html">FAQ</a></li>
+                <li><a href="#rodape">CONTATO</a></li>
+                
+            </ul>
+        </li>
+  
+        </ul>
+    </nav>
+    <div class="dados">
+        <ul>
+            <li id="login"><a href="">Login</a></li>
+            <li id="cadastro"><a href="">Cadastro</a></li>
+            
+        </uL>
+    </div>
+    <main class="home1">
+    <div class="walpaper"> </div>
            
             <div class="ti">
                 
@@ -39,7 +56,7 @@
                 <p >Viemos inovar esse mercado com preços acessíveis e produtos de qualidade.</p>
             </div>
             
-        <div class="pieces">
+        <div class="pieces" id="piece">
             <h1>Produtos</h1>
             <hr>    
             
@@ -72,9 +89,25 @@
                 </div>
 
         </div>
+        <div class="cars">
+            <h1 class="promocao">CARROS MAIS VENDIDOS DO MÊS</h1>
+            <div class="car">
+                
+                
+                <a href="pages/carros.html"><img src="img/Bugatti.jpg"></a>
+                <a href="pages/ferrari.html"><img src="img/Ferrari.jpg"></a>
+                <a href="pages/porsche.html"><img src="img/taycan.jpg"></a>
+                <a href="pages/gtr.html"><img src="img/gtr.jpg"></a>
+                <a href="pages/jaguar.html"><img src="img/jaguar.jpg"></a>
+                <a href="pages/tesla.html"><img src="img/tesla.jpg"></a>
+
+
+            </div>
+        </div>
         
 
     </main>
+   
 
     <footer>
         <div class="rodape" id="rodape">
@@ -109,6 +142,7 @@
         </div>
 
     </footer>
+    
     
 </body>
 </html>

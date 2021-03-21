@@ -1,57 +1,138 @@
 *{
-    margin:0;
     padding: 0;
-    box-sizing: border-box;
+    margin: 0;
     text-decoration: none;
     list-style: none;
-    font-family:  Montserrat;
+    box-sizing: border-box;
+    font-family: montserrat;
+}
+body {
+    height:100%;
+    
+ }
+.home1{
+    height:4000px;
 }
 
-.topo{
+nav{
+    background: #000;
+    height:120px;
+    width: 100%;
     display: flex;
-    justify-content: space-between;
-    align-items: center;
-    background: black;
-    height: 150px;
+    justify-content:space-between;
 }
-.topo a{
+
+
+.logo{
+    color: white;
+    font-size: 2.8rem;
+    
+    padding: 0px 100px;
+    font-weight: bold;
+    margin:35px;
+}
+label a{
     color:white;
 }
-.logo{
-    font-size: 60px;
-    line-height: 80px;
-    margin: 15px 140px;
+
+
+nav ul li{
+    display: inline-block;
+    margin: 50px 20px;
+
+}
+nav ul li ul li{
+   
+    margin: 0px;
+    padding:4px;
+
+}
+nav ul li ul li:hover{
+    background: lightgray;
+    transition: .5s;
+}
+nav ul li ul li a:hover{
+    background: none;
+}
+
+nav ul li a{
+    color:white;
+    font-size:1.2rem;
+    text-transform: uppercase;
+    padding: 7px 13px;
+    border-radius: 3px;
+}
+nav ul li a.active, nav ul li a:hover{
+    background: gray;
+    transition: .5s;
+}
+
+ul ul{
+    position: absolute;
+    min-width:120px;
+    margin:10px 0px;
+    display:none;
+   
+}
+ul ul li{
+    display: block;
+    background-color: gray;
+}
+
+ul li:hover ul{
+    
+    display: block;
+}
+.dados{
+    background-color: rgba(0, 0, 0, 0.781);
+    font-size: 1rem;
+     
+}
+.dados ul{
+    margin-left:80%;
+    display:flex;
+    text-align: center;
+    
+   
+}
+.dados ul li{
+    
+    border-radius: 10px;
+    padding:15px;
+    margin:10px;
+   
+    
+}
+#login{
+    background-color: rgba(255, 0, 0, 0.616);
+}
+#login a{
+    color:white;
     font-weight: bold;
-    
-    
 }
-.logo label{
-    padding: 10px;  
-    cursor: pointer;
-}
-.nav{
-    margin: 20px 100px;
-    display: flex;
-    
-}
-.nav li{
-    font-size: 30px;
-    padding:20px;    
-}
-.nav li a{
-    padding:10px;
-}
-.nav li a:hover, #escolhido{
-    background: rgba(109, 97, 97, 0.863);
-    transition: 0.5s;
-}
+#login:hover{
+    background-color: rgba(199, 4, 4, 0.616);
+    transition: .5s;
 
+}
+#cadastro{
+    background-color:rgba(255, 166, 0, 0.774);
+}
+#cadastro a{
+    font-weight: bold;
+    color:black;
+}
+#cadastro:hover{
+    background-color:rgba(182, 120, 5, 0.774);
+    transition: .5s;
 
+}
 
 .walpaper{
-    width: 1600px;
+    width: 90%;
     margin: 60px auto;
-    height: 900px;
+    height: 700px;
+    object-fit:cover;
    
     background-image: url(img/walpaper.jpg);
     background-position: center;
@@ -71,16 +152,16 @@
     color: #9b7878;
     font-weight: bold;
     margin:20px;
-    font-size:50px;
+    font-size:3rem;
 }
 .ti p{
     
     color: #9b7878;
     margin:20px;
-    font-size:32px;
+    font-size:1.7rem;
 }
 .pieces{
-    width: 1600px;
+    width: 90%;
     margin: 100px auto;
     height: 1700px;
     background-color: rgba(0, 0, 0, 0.911);
@@ -99,7 +180,7 @@
     padding: 20px;
     
     text-align: center;
-    font-size: 50px;
+    font-size: 2rem;
     
 }
 
@@ -111,7 +192,7 @@
 }
 .piece h3, .piece p, .piece a{
     text-align: center;
-    width: 500px;
+    width: 425px;
     
 }
 .piece h3{
@@ -120,8 +201,8 @@
 }
 .piece p{
     margin:20px;
-    font-size: 20px;
-    margin-bottom:50px;
+    font-size: 1.2rem;
+    margin-bottom:30px;
 }
 .piece img{
     
@@ -140,7 +221,7 @@
     padding: 15px;
     font-size:20px;
     font-weight: bold;
-    margin-left: 210px;
+    margin-left: 37%;
     border-radius: 15px;
     
 }
@@ -153,11 +234,40 @@
     border-radius: 10px;
     height: 320px;
 }
+.cars{
+    
+    width: 100%;
+    margin: 200px auto;
+    height: 700px
+ 
+}
+.car{
+    
+    margin-top: 10px;
+    background-color: rgba(99, 90, 90, 0.815);
+    border-radius: 10px;
+}
+.car img{
+    width:41%;
+    height: 300px;
+    margin: 30px 50px;
+    border-radius: 10px;
+    
+}
+.promocao{
+    background-color: red;
+    border-radius: 10px;
+}
+
+
+
+
 
 .rodape{
+    
     height: 300px;
     background-color: black;
-    margin-top: 150px;
+    margin-top: auto;
     COLOR:white;
     display: flex;
     justify-content: space-around;
@@ -184,23 +294,111 @@ address{
 }
 
 .about{
-    width: 1600px;
+    width: 50%;
     height: 800px;
     margin: 0px auto;
-    display:flex;
-    align-items: center;
-    justify-content: space-between
+    display:block;
+    text-align: center;
+   
+}
+.about img{
+    width: 95%;
 }
 
 #titulo-about{
-    font-size: 70px;
-    margin-top: 80px;   
+    font-size: 3rem;
+    margin-top: 50px;   
 
     text-align: center;
     
 }
 .about p{
-    font-size: 35px;
+    font-size: 1rem;
+    text-align: justify;
+    margin:20px;
     
-    width: 800px;
+}
+
+
+
+.container-carros{
+    margin: 50px auto;
+    width: 90%;
+    display:grid;
+    grid-template-columns: 0.3fr 2fr 2fr;
+    grid-template-areas: "nav img conteudo";
+
+}
+.nav lateral{
+    grid-area: nav;
+    
+   
+}
+.nav-lateral ul li{
+    border: 1px solid #000;
+    background-color: rgba(146, 140, 140, 0.795);
+    
+    
+}
+.nav-lateral ul li a{
+    font-size: 1.4rem;
+
+}
+
+.nav-lateral ul li:hover{
+    background-color: rgba(83, 79, 79, 0.795);
+    transition:0.5s;
+}
+.escolhido {
+    background-color: rgba(0, 0, 0, 0.795);
+   
+}
+
+.img-carros{
+    grid-area: img;
+    margin-left: 20px;
+}
+.img-carros img{
+    width:100%;
+
+}
+.conteudo-carro{
+    border: 1px solid black;
+    margin-left:20px;
+    text-align: center;
+}
+.conteudo-carro p{
+    margin:10px 5px;
+    text-align:justify;
+}
+
+
+#titulo-faq{
+    font-size: 2rem;
+    text-align:center;
+    margin-top: 20px;
+}
+
+.faq-text{
+    display:flex;
+    justify-content: space-evenly;
+    margin:20px auto;
+    width:800px;
+    text-align: center;
+}
+@media (max-width:1230px){
+    nav{
+        background: #000;
+        height:180px;
+        width: 100%;
+        display: block;
+        text-align:center;
+        
+        
+    }
+    nav ul{
+        border-top: 1px solid white;
+        margin:0px;
+    }
+
 }
