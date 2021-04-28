@@ -1,0 +1,127 @@
+*{
+    font-family: Montserrat;
+}
+header{
+    box-shadow: 0px 0px 10px black;
+    
+}
+header img{
+    margin-left:80px;
+}
+
+.flex{
+    display:flex;
+    
+    margin:50px 50px;
+}
+.flex1{
+    display:flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;  
+   
+}
+
+.about{
+    background-image: linear-gradient(rgb(255, 255, 255), rgb(200, 200, 200),rgb(255, 255, 255));
+    padding-bottom:20px;
+}
+.galeria{
+    background-image: linear-gradient(rgba(255, 0, 0, 0.879), yellow,rgba(255, 0, 0, 0.879));
+    padding-bottom:20px;
+}
+#galeria{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color:white;
+    font-size:3rem;
+    text-decoration: italic;
+
+}
+.flex p{
+   
+    margin-left:20px;
+}
+
+#about, #galeria{
+    margin-top:20px;
+    text-align: center;
+}
+
+
+.preco{
+    color:green;
+    font-weight: bold;
+}
+.card-body a{
+    color:white;
+    background-color:orange;
+
+}
+.card-body p{ 
+    font-size:1.2rem;
+}
+.card-body{
+    background-color:rgba(239, 238, 238, 0.945);
+ }
+.card img{
+    height:300px;
+}
+.card h5{
+    font-weight: bold;
+    color:rgb(239, 37, 37);
+    font-size:1.4rem;
+}
+
+.rodape{
+    text-align:center;
+    margin-top:50px;
+    background-color:#2f353e;
+    
+    
+}
+.grid{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    grid-template-areas: "um dois"
+                            "tres quatro";
+    margin:10px;
+}
+.block{
+    
+    margin: 20px auto;
+}
+.patrocinio{
+    grid-area:dois;
+}
+ .redes{
+    grid-area: quatro;
+ }
+ .politica{
+    grid-area:tres;
+ }
+.flex4{
+    
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.flex4 i{
+    font-size:3.2rem;
+    margin:20px;  
+    color:white;
+}
+#copy{
+    text-align:center;
+    background:salmon;
+    height:30px;
+    
+}
+@media (max-width: 1088px){
+    .flex{
+        flex-wrap: wrap;
+    }
+    .flex p{
+        margin-top:50px;
+    }
+}
+

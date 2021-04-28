@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="login.css">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <form action="login.html" method="post">
+        <fieldset>
+            <div class="container">
+                <img src="img/logo.png">
+
+            
+                <h2 id="title">Cadastro</h2>
+           <hr>
+                
+            <div class="input">
+                <p>Usuário:</p>
+                <input type="text" name="username" id="username" placeholder="Digite um usuário">
+                <div id="resNome"></div>
+                
+            </div>
+            <div class="input">
+                <p>Senha:</p>
+                <input type="password" name="password" id="password"placeholder="Digite uma senha">
+                <div id="resSenha"></div>
+            </div>
+            <div class="input">
+                <p>E-mail:</p>
+                <input type="email" name="email" id="email"placeholder="Digite seu email">
+                <div id="resEmail"></div>
+            </div>
+            <div class="input">
+                <p>Telefone:</p>
+                <input type="tel" name="telefone" id="telefone"placeholder="Digite seu telefone">
+                <div id="resTelefone"></div>
+            </div>
+
+            <input class="btn-login" type="submit" value="Cadastrar">
+
+            <p id="cadastro"> Já tem cadastro? Faça seu <a href="login.html">Login</a></p>
+
+            </div>
+           
+         
+        </fieldset>
+
+    </form>
+   
+   <script src="validar.js"></script>
+</body>
+</html>
