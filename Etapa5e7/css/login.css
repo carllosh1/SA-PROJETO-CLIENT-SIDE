@@ -1,0 +1,117 @@
+*{
+    
+    padding:0px;
+    margin:0px;
+    text-decoration: none;
+    font-family: Montserrat;
+}
+
+.flex{
+    display:flex;
+    flex-wrap:wrap;
+
+}
+.left{
+    height:100vh;
+    width:40vw;
+    grid-area: left;
+    background:#002244;
+    color:rgba(255, 255, 255, 0.434);
+    
+    
+}
+
+.itens{
+    position:relative;
+    top:25%;
+    
+    text-align:center;
+    
+}
+.itens h2{
+    position: relative;
+    animation: mymove 4s infinite;
+}
+
+  
+  @keyframes mymove {
+    from {opacity: 0%;}
+    to {opacity: 100%;}
+  }
+
+.right{
+    height:100vh;
+    
+}
+
+/* right */
+form{
+    text-align: center;
+    width: 40vw;
+    margin:30vh 20%;
+   
+}
+
+.login p{
+  margin: 5px;
+}
+
+.container p{
+    
+    text-align: start;
+    margin:5px 35px;
+    font-weight: bold;  
+ 
+}
+#title{
+    margin-bottom:2px;
+
+}
+
+input{
+    border: none;
+    background:lightgray;
+ 
+    margin:5px;
+    padding:10px;
+  
+    width:80%;
+  
+
+}
+.btn-login{
+    background: rgba(89, 89, 220, 0.941);
+    color: white;
+    width:84%;
+    cursor: pointer;
+    
+
+}
+
+#resNome, #resSenha, #resTelefone, #resEmail{
+    margin-left: 35px;
+    margin-bottom:20px;
+    text-align:start;
+}
+
+@media (max-width:800px){
+    .itens{
+      
+       top:0%;
+        
+        
+    }
+    
+    .left, .right{
+        width:98vw;
+        height:50vh;
+    }
+    .flex{
+        display:block;
+    }
+    
+    form{
+        width:60%;
+        margin: 10px 20%;
+    }
+}

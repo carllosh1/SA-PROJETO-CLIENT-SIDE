@@ -1,0 +1,36 @@
+main{
+    padding-top:50px;
+    padding-bottom:50px;
+}
+.container-main{
+    text-align:center;
+    width:80%;
+    margin: 0 auto;
+    background:white;
+
+    
+
+}
+.container-block p{
+    width:40%;
+    margin:20px auto;
+}
+.container-block{
+    display:flex;
+    flex-wrap: wrap;
+    justify-content:space-between;
+    align-items:center;
+   
+}
+.container-block img{
+    margin:20px auto;
+    
+}
+
+@media (max-width: 868px){
+    .container-block p{
+        width:90%;
+        margin:20px auto;
+    }
+
+}

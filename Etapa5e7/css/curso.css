@@ -1,0 +1,29 @@
+.flex1{
+    
+    display: flex;
+    justify-content:space-evenly;
+    flex-wrap:wrap;
+  }
+
+
+.card a:hover{
+    background-color: rgb(14, 172, 14);
+    color: white;   
+}
+
+
+.carrinhoItens{
+
+    text-align: center;
+    width: 80%;
+    margin:0 auto;
+   
+}
+
+
+
+#text-price{
+    color:green;
+    font-weight: bold;
+    
+}

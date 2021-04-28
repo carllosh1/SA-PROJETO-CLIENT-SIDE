@@ -1,0 +1,60 @@
+
+
+#faq-title{
+    
+    font-size: 2rem;
+    text-align:center;
+ 
+}
+.faq p{
+    color:black;
+    font-size: 1.3rem;
+}
+
+.faq{
+    display:flex;
+    justify-content: space-evenly;
+	flex-wrap: wrap;
+
+  
+    text-align: center;
+    margin-bottom:100px;
+    font-family: 'Courier New', Courier, monospace;
+}
+.faq-block{width:500px;
+    margin:15px auto;}
+.faq h3{
+    font-weight: bold;
+    font-size:1.5rem;
+  
+
+}
+main{
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+/* contato */
+.comentario-contato{
+    width:60%;
+   margin: 0px auto;
+   text-align: center;
+   background:rgb(255, 255, 255);
+   font-size: 1.5rem;
+}
+
+
+input{
+    padding:5px;
+    width:60%;
+   
+
+}
+
+textarea{
+    width:60%;
+    height:200px;
+}
+
+
+

@@ -1,0 +1,293 @@
+{
+    "alunos": [
+        {
+            "id": 1,
+            "nome": "Ana",
+            "turma":"TII2001T",
+            "frequencia": "87%",
+            "idade":"22 anos",
+            "turno": "Tarde"
+        },
+        {
+            "id": 2,
+            "nome": "Andressa",
+            "turma":"TII2001T",
+            "frequencia": "89%",
+            "idade":"21 anos",
+            "turno": "Tarde"
+        },
+        {
+            "id": 3,
+            "nome": "André",
+            "turma":"ADM2001T",
+            "frequencia": "79%",
+            "idade":"23 anos",
+            "turno": "Tarde"
+        },
+        {
+            "id": 4,
+            "nome": "Alex",
+            "turma":"ADM2001M",
+            "frequencia": "64%",
+            "idade":"19 anos",
+            "turno": "Manhã"
+        },
+        {
+            "id": 5,
+            "nome": "Bruno",
+            "turma":"ADM2001M",
+            "frequencia": "80%",
+            "idade":"17 anos",
+            "turno": "Manhã"
+        },
+        {
+            "id": 6,
+            "nome": "Bárbara",
+            "turma":"ADM2001T",
+            "frequencia": "22%",
+            "idade":"19 anos",
+            "turno": "Tarde"
+        },
+        {
+            "id": 7,
+            "nome": "Carlos",
+            "turma":"TII2001M",
+            "frequencia": "67%",
+            "idade":"19 anos",
+            "turno": "Manhã"
+        },
+        {
+            "id": 8,
+            "nome": "Camila",
+            "turma":"TII2001T",
+            "frequencia": "99%",
+            "idade":"19 anos",
+            "turno": "Tarde"
+        },
+        {
+            "id": 9,
+            "nome": "Cleber",
+            "turma":"TII2001T",
+            "frequencia": "59%",
+            "idade":"20 anos",
+            "turno": "Tarde"
+        },
+        {
+            "id": 10,
+            "nome": "Davi",
+            "turma":"ADM2001T",
+            "frequencia": "55%",
+            "idade":"22 anos",
+            "turno": "Tarde"
+        },
+        {
+            "id": 11,
+            "nome": "Daniela",
+            "turma":"ADM2001T",
+            "frequencia": "55%",
+            "idade":"22 anos",
+            "turno": "Tarde"
+        },
+        {
+            "id": 12,
+            "nome": "Fernanda",
+            "turma":"ADM2001M",
+            "frequencia": "64%",
+            "idade":"19 anos",
+            "turno": "Manhã"
+        },
+        {
+            "id": 13,
+            "nome": "Felipe",
+            "turma":"TII2001M",
+            "frequencia": "70%",
+            "idade":"23 anos",
+            "turno": "Manhã"
+        },
+
+        {
+            "id": 14,
+            "nome": "Fransisco Daniel",
+            "turma":"TII2001M",
+            "frequencia": "70%",
+            "idade":"27 anos",
+            "turno": "Manhã"
+        },
+        {
+            "id": 15,
+            "nome": "Gabriel A",
+            "turma":"TII2001M",
+            "frequencia": "80%",
+            "idade":"21 anos",
+            "turno": "Manhã"
+        },
+        {
+            "id": 16,
+            "nome": "Gabriel H",
+            "turma":"TII2001M",
+            "frequencia": "80%",
+            "idade":"20 anos",
+            "turno": "Manhã"
+        },
+        {
+            "id": 17,
+            "nome": "Gabriela",
+            "turma":"ADM2001M",
+            "frequencia": "74%",
+            "idade":"19 anos",
+            "turno": "Manhã"
+        },
+        {
+            "id": 17,
+            "nome": "Giovanna",
+            "turma":"TII2001T",
+            "frequencia": "72%",
+            "idade":"19 anos",
+            "turno": "Tarde"
+        },
+        {
+            "id": 18,
+            "nome": "Guilherme",
+            "turma":"TII2001M",
+            "frequencia": "80%",
+            "idade":"20 anos",
+            "turno": "Manhã"
+        },
+        {
+            "id": 19,
+            "nome": "Ivan",
+            "turma":"TII2001M",
+            "frequencia": "80%",
+            "idade":"21 anos",
+            "turno": "Manhã"
+        },
+        {
+            "id": 20,
+            "nome": "Igor E",
+            "turma":"TII2001M",
+            "frequencia": "80%",
+            "idade":"20 anos",
+            "turno": "Manhã"
+        },
+        {
+            "id": 21,
+            "nome": "Igor B",
+            "turma":"TII2001M",
+            "frequencia": "80%",
+            "idade":"25 anos",
+            "turno": "Manhã"
+        },
+        {
+            "id": 22,
+            "nome": "Junio",
+            "turma":"TII2001M",
+            "frequencia": "80%",
+            "idade":"23 anos",
+            "turno": "Manhã"
+        },
+        {
+            "id": 23,
+            "nome": "João A",
+            "turma":"ADM2001M",
+            "frequencia": "71%",
+            "idade":"19 anos",
+            "turno": "Manhã"
+        },
+   
+   
+        {
+            "id": 24,
+            "nome": "Lucas A",
+            "turma":"TII2001M",
+            "frequencia": "83%",
+            "idade":"21 anos",
+            "turno": "Manhã"
+        },
+
+
+        {
+            "id": 25,
+            "nome": "Luiz F",
+            "turma":"TII2001M",
+            "frequencia": "80%",
+            "idade":"22 anos",
+            "turno": "Manhã"
+        },
+    
+       {
+            "id": 26,
+            "nome": "Kelly",
+            "turma":"ADM2001T",
+            "frequencia": "99%",
+            "idade":"19 anos",
+            "turno": "Tarde"
+        },
+        {
+            "id": 27,
+            "nome": "Stella",
+            "turma":"TII2001M",
+            "frequencia": "87%",
+            "idade":"25 anos",
+            "turno": "Manhã"
+        },
+        {
+            "id": 28,
+            "nome": "Rafael",
+            "turma":"TII2001M",
+            "frequencia": "92%",
+            "idade":"24 anos",
+            "turno": "Manhã"
+        },
+        {
+            "id": 29,
+            "nome": "Thales",
+            "turma":"TII2001M",
+            "frequencia": "84%",
+            "idade":"26 anos",
+            "turno": "Manhã"
+        },
+  
+        {
+            "id": 30,
+            "nome": "Vinicius",
+            "turma":"TII2001M",
+            "frequencia": "84%",
+            "idade":"18 anos",
+            "turno": "Manhã"
+        }
+     
+],
+    "professores": [
+        {
+            "id": 1,
+            "nome": "Rubem",
+            "area": "Desenvolvedor Web",
+            "turno": "Manhã",
+            "turma":"TII2001M"
+        },
+
+        {
+            "id": 2,
+            "nome": "Daniel",
+            "area": "Desenvolvedor Web",
+            "turno": "Tarde",
+            "turma":"TII2001T"
+        },
+        {
+            "id": 3,
+            "nome": "Pedro",
+            "area": "Administração",
+            "turno": "Manhã",
+            "turma":"ADM2001M"
+        },
+
+        {
+            "id": 4,
+            "nome": "José",
+            "area": "Administração",
+            "turno": "Tarde",
+            "turma":"ADM2001T"
+        }
+       
+    ]
+}

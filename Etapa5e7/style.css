@@ -1,0 +1,58 @@
+*{
+    text-decoration: none;
+    list-style: none;
+  
+}
+
+.active1{
+    background-color:#03142d;
+    
+}
+main{
+    background: #EAEFF3
+}
+
+.rodape{
+text-align:center;
+
+background-color:#2f353e;
+
+}
+
+
+
+.grid{
+display: grid;
+grid-template-columns: 1fr 1fr;
+grid-template-rows: 1fr 1fr;
+grid-template-areas: "um dois"
+                        "tres quatro";
+margin:10px;
+}
+
+.patrocinio{
+grid-area:dois;
+}
+.redes{
+grid-area: quatro;
+}
+.politica{
+grid-area:tres;
+}
+.flex4{
+
+display: flex;
+justify-content: center;
+flex-wrap: wrap;
+}
+.flex4 i{
+font-size:3.2rem;
+margin:20px;  
+color:white;
+}
+#copy{
+text-align:center;
+background:salmon;
+height:30px;
+
+}

@@ -1,0 +1,15 @@
+.active a{
+    position: absolute;
+    top: 20rem;
+    left: 68%;
+    color:white;
+    background: rgb(103, 19, 19);
+    font-size:2rem;
+    padding:5px;
+    border-radius:10px;
+    
+    text-decoration:none; 
+}
+article{  
+    padding-top:1px;
+padding-bottom:40px;}

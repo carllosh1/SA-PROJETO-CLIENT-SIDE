@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ianes Tech| Escola Técnica</title>
+    <link rel="shortcut icon" type="image/x-icon" href="img/favicon.png">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css" integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
+</head>
+<style>
+    *{
+        margin: 0;
+        padding:0;
+    }
+    .top{ 
+        text-align: center;
+        background:#002244;
+        color:white;
+        height:120px;
+
+  
+    }
+    .top h2{
+        padding-top:40px;
+    
+    }
+    main{
+        padding-top:10px;
+        background: #EAEFF3;
+        padding-bottom:100px;
+    }
+    .Dados{
+        width:50%;
+        margin:20px auto;
+        background:white;
+    }
+    .dado{
+        display:block;
+        margin:5px;
+        padding:10px
+    }
+    footer{
+        text-align: center;
+        background:#002244;
+        color:white;
+        height:70px;
+    }
+    #txtID{
+        text-align: center;
+
+    }
+    input{ padding: 5px;
+            width:90%;
+             margin:0 auto;
+             margin-bottom: 10px;
+    }
+   
+    form p{
+        padding: 1px;
+        font-weight: bold;
+    }
+   
+</style>
+<body>
+    <header>
+        <div class="top">
+            <h2>Portal do Aluno</h2>
+        </div>
+    </header>
+    <main>
+    <form>
+        <div class="Dados">
+
+            <div class="dado">
+                <p>Digite seu ID:</p>
+                <input id="seuID" placeholder="Digite o ID"type="number">
+                <input type="submit" class="btn btn-primary">
+
+            </div>
+            
+            <!-- <div class="dado">
+                <p">Digite o código da sua Turma</p>
+                <input id="seuTurma" type="text">
+             
+                <input type="submit">
+            </div> -->
+                
+            <div class="dado">
+                <p>Digite o Nome do seu Professor:</p>
+                <input id="seuProf" placeholder="Digite o Nome" type="text">
+                <input type="submit" class="btn btn-primary">
+
+            </div>
+            
+      </div>
+
+     
+
+    </form>
+      
+
+      <div class="infos">
+          <div id="txtID"></div>
+          <div id="txtTurma"></div>
+          <div id="txtPo"></div>
+      </div>
+
+    </main>
+    <footer>
+        <p>&copy Desenvolvido por Carlos Henrique</p>
+    </footer>
+
+    <script src="js/placeholder.js"></script>
+</body>
+</html>
