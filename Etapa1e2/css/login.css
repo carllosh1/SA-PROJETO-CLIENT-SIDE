@@ -1,0 +1,42 @@
+.tela-login{
+    width:25%;
+    
+    margin:30px auto;
+    background-color: rgba(0, 0, 0, 0.932);
+    border-radius: 10px;
+    
+}
+
+.tela-login h2{
+    font-size: 1.8rem;
+    color:white;
+    margin: 20px;
+    padding-top:20px;
+}
+
+.input{
+    margin:20px;
+    color:white;
+}
+.btn-login{
+   
+    padding:5px;
+    width:50%;
+    margin-left: 25%;
+    margin-bottom:20px;
+    border-radius:10px;
+    color:white;
+    font-weight:bold;
+    background-color:rgb(116, 112, 112);  
+}
+.btn-login:hover{
+    background-color:rgb(80, 76, 76); 
+    transition:.5s; 
+    cursor:pointer;
+}
+#username, #password,#email,#phone,#nome{
+    border-radius: 4px;
+    padding-bottom: 2px;
+    width: 100%;
+    
+}
